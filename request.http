@@ -1,0 +1,15 @@
+GET http://localhost:3300/api/users
+
+###
+
+POST http://localhost:3300/api/users
+content-type: application/json
+
+{
+    "name": "Luana",
+    "age": 30
+}
+
+###
+
+DELETE http://localhost:3300/api/users/94028e3f-2158-4b72-9e18-686d9bd96dd1
